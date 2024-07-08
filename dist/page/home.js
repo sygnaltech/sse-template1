@@ -7,6 +7,8 @@
     setup() {
     }
     exec() {
+      console.log("Test Homepage.");
+      alert("foo.");
     }
   };
 })();

@@ -3,12 +3,12 @@
  * Site
  */
 
-import { IRouteHandler, Page } from "@sygnal/sse";
+import { IModule, Page } from "@sygnal/sse";
 
 // import gsap from 'gsap'; 
  
 
-export class Site implements IRouteHandler {
+export class Site implements IModule {
 
   constructor() {
   }
